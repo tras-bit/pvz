@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.2
+
+- Guard against null or empty asset paths in the Unity importer.
+- Verified ZIP integrity and guard presence; Unity tests were not run.
+
 ## v0.1.1
 
 - Fixed asset path filtering in `unity/Assets/Editor/PvzImporter.cs` inside
